@@ -6,4 +6,7 @@ public class B extends A{
         return "Method is overridden in Extended class B";
     }
 
+    public B() {
+        String meth = new A().meth();
+    }
 }
